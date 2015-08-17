@@ -1,0 +1,62 @@
+extends layout
+
+block content
+  h1= title
+  form(method="post", id="quizForm")
+    div.form-group
+    img(src= "/images/Water_Lilies.jpg")
+    label.radio-inline
+      input(name="artist1", type="radio", value="1")
+      |Monet
+    label.radio-inline
+      input(name="artist1", type="radio", value="2")
+      |Van Gogh
+    label.radio-inline
+      input(name="artist1", type="radio", value="3")
+      |Renoir
+  div.form-group
+    img(src= "/images/melt.jpg")
+    label.radio-inline
+      input(name="artist2", type="radio", value="1")
+      |Picasso
+    label.radio-inline
+      input(name="artist2", type="radio", value="2")
+      |Dali
+    label.radio-inline
+      input(name="artist2", type="radio", value="3")
+      |Degas
+  div.form-group
+    img(src= "/images/monroe.jpg")
+    label.radio-inline
+      input(name="artist3", type="radio", value="1")
+      |Warhol
+    label.radio-inline
+      input(name="artist3", type="radio", value="2")
+      |Dali
+    label.radio-inline
+      input(name="artist3", type="radio", value="3")
+      |O'Keeffe
+  div.form-group
+    img(src= "/images/weeping_woman.jpg")
+    label.radio-inline
+      input(name="artist4", type="radio", value="1")
+      |Pollock
+    label.radio-inline
+      input(name="artist4", type="radio", value="2")
+      |Picasso
+    label.radio-inline
+      input(name="artist4", type="radio", value="3")
+      |Matisse
+  div.form-group
+    img(src= "/images/birth_of_venus.jpg")
+    label.radio-inline
+      input(name="artist5", type="radio", value="1")
+      |Botticelli
+    label.radio-inline
+      input(name="artist5", type="radio", value="2")
+      |Da Vinci
+    label.radio-inline
+      input(name="artist5", type="radio", value="3")
+      |Michelangelo
+  div.form-group
+    input(type='submit',id="score",value='Find out your score') 

@@ -20,7 +20,7 @@ $(document).ready(function(){
         if ($('#tally_msg').length){
             $('#tally_msg').remove();
         }
-        $('.form-group:last').append('<div id="tally_msg"><p>You got ' + response + ' correct!</p></div>');
+        $('.artist-block:last').append('<div id="tally_msg"><p>You got ' + response + ' correct!</p></div>');
     });  
   }
 });

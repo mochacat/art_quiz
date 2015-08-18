@@ -1,3 +1,16 @@
+body {
+    text-align: center;
+}
+
 img {
     width: 450px;
+}
+
+.artist-block {
+    margin-top: 25px;
+}
+
+#tally_msg {
+    color: rgb(41, 144, 81);
+    margin-top: 20px;
 }

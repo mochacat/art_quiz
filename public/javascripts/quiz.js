@@ -17,7 +17,6 @@ $(document).ready(function(){
       url: 'answers/score',
       dataType: 'JSON'
     }).done(function(response){
-        console.log(response);
         if ($('#tally_msg').length){
             $('#tally_msg').remove();
         }
